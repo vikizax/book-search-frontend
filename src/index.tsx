@@ -19,7 +19,7 @@ root.render(
     <Auth0Provider
       domain={domain!}
       clientId={clientId!}
-      redirectUri={window.location.origin}
+      redirectUri={redirectUri}
       useRefreshTokens={true}
       cacheLocation="localstorage"
     >
